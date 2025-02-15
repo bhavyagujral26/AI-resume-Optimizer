@@ -1,0 +1,142 @@
+/* 🌍 General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  transition: background 0.3s, color 0.3s;
+  background: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+.dark-mode button {
+  background-color: white;
+  color: black;
+}
+.dark-mode .glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+/* 🎭 Glassmorphism Effect */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+  margin: 20px auto;
+  width: 60%;
+}
+.glassmorphism:hover {
+  backdrop-filter: blur(15px);
+}
+
+/* 📝 Form Inputs */
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+textarea {
+  height: 100px;
+}
+
+/* 🔥 Fancy Button */
+.fancy-button {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.fancy-button:hover {
+  box-shadow: 0 0 15px rgba(255, 105, 135, 0.8);
+  transform: scale(1.05);
+}
+
+/* 🌓 Dark Mode Button */
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.dark-mode-toggle:hover {
+  background: #555;
+}
+
+/* 📝 Results Section */
+.result-section {
+  text-align: left;
+  padding: 20px;
+}
+
+/* 🏆 Enhanced Resume */
+.enhanced-resume {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f0f0f0;
+  font-style: italic;
+}
+
+/* 🎭 Animated Card */
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 🎨 Spinning Logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-logo {
+  height: 40vmin;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.parallax-title {
+  font-size: 3rem;
+  color: #ff416c;
+  margin-top: 50px;
+}
+.ai-suggestions {
+  margin-top: 30px;
+  background: #fff5f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,51 @@
+.templates-section {
+  text-align: center;
+  margin-top: 50px;
+}
+.templates {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.template-card {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  background: white;
+}
+.template-card:hover {
+  transform: scale(1.1);
+}
+.template-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+button {
+  margin: 5px;
+  padding: 8px;
+  background: #ff416c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #ff4b2b;
+}
+
+.template-editor {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 20px;
+}
+.template-editor textarea {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
